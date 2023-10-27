@@ -3,6 +3,7 @@ import logging.handlers
 import os
 import csv
 import requests
+from datetime import datetime
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -33,13 +34,13 @@ if __name__ == "__main__":
         # Adicionar a temperatura ao arquivo CSV sem perder informações anteriores
         with open("temperatures.csv", "a", newline="") as csvfile:
             fieldnames = ["timestamp", "temperature"]
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames
 
             # Verifica se o arquivo CSV já existe e escreve cabeçalhos se necessário
             if os.path.getsize("temperatures.csv") == 0:
                 writer.writeheader()
 
-            writer.writerow({"timestamp": logger_file_handler.formatTime(), "temperature": temperature})
+            writer.writerow({"timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S'), "temperature": temperature})
 
     logger.info(f"testando")
 
