@@ -223,3 +223,6 @@
 2023-10-27 11:29:17,952 - __main__ - INFO - Token value: 4321
 2023-10-27 11:29:18,709 - __main__ - INFO - Weather in London: 11.51
 2023-10-27 11:29:18,709 - __main__ - INFO - testando
+2023-10-27 12:22:25,538 - __main__ - INFO - Token value: 4321
+2023-10-27 12:22:26,253 - __main__ - INFO - Weather in London: 13.84
+2023-10-27 12:22:26,254 - __main__ - INFO - testando
