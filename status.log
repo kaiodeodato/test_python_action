@@ -262,3 +262,6 @@
 2023-11-08 12:22:52,216 - __main__ - INFO - Token value: 4321
 2023-11-08 12:22:52,882 - __main__ - INFO - Weather in London: 12.69
 2023-11-08 12:22:52,882 - __main__ - INFO - testando
+2023-11-09 12:22:48,311 - __main__ - INFO - Token value: 4321
+2023-11-09 12:22:48,706 - __main__ - INFO - Weather in London: 10.19
+2023-11-09 12:22:48,706 - __main__ - INFO - testando
