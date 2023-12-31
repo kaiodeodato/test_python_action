@@ -418,3 +418,6 @@
 2023-12-30 12:20:59,629 - __main__ - INFO - Token value: 4321
 2023-12-30 12:20:59,908 - __main__ - INFO - Weather in London: 10.9
 2023-12-30 12:20:59,908 - __main__ - INFO - testando
+2023-12-31 12:21:28,166 - __main__ - INFO - Token value: 4321
+2023-12-31 12:21:29,247 - __main__ - INFO - Weather in London: 9.09
+2023-12-31 12:21:29,247 - __main__ - INFO - testando
