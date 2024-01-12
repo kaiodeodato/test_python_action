@@ -454,3 +454,6 @@
 2024-01-11 12:23:36,168 - __main__ - INFO - Token value: 4321
 2024-01-11 12:23:37,000 - __main__ - INFO - Weather in London: 3.88
 2024-01-11 12:23:37,000 - __main__ - INFO - testando
+2024-01-12 12:23:19,486 - __main__ - INFO - Token value: 4321
+2024-01-12 12:23:19,917 - __main__ - INFO - Weather in London: 5.63
+2024-01-12 12:23:19,917 - __main__ - INFO - testando
